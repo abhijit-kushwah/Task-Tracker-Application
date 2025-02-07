@@ -1,0 +1,9 @@
+services:
+  #PostgreSQL DB
+  db:
+    image: postgres:latest
+    ports:
+      - "5432:5432" #defalt port for postgreSQL
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: Abhijit@10
